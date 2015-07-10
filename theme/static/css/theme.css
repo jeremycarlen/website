@@ -1,0 +1,56 @@
+body {
+    background-color: #dadada;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+#banner {
+    margin-top: 70px;
+    margin-left: 8%;
+}
+
+#wrapper {
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#menu {
+    padding-left: 8%;
+    width: 15%;
+    min-width: 182px;
+    max-width: 300px;
+    margin-top: 25px;
+}
+
+#menu img {
+    margin-bottom: 12px;
+}
+
+/* Pseudo-float business. */
+#menu, #content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#content {
+    width: 72%;
+}
+
+#project-thumbnail {
+    width: 300px;
+}
+
+.thumbnail-boxes img {
+    margin: 25px;
+}
+
+.thumbnail-boxes {
+    max-width: 1060px;
+}
+
+.body {
+    margin-top: 25px;
+}
