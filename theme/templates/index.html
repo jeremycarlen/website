@@ -2,7 +2,9 @@
 {% block content %}
 <section id="content" class="thumbnail-boxes">
 {% for article in articles_page.object_list %}
-    <a href="{{ article.url }}" title="{{ article.description }}"><img class="project-thumbnail" src="theme/thumbnails/{{ article.thumbnail }}"/></a>
+    <a href="{{ article.url }}" title="{{ article.description }}">
+        <img class="project-thumbnail" src="theme/thumbnails/{{ article.title.lower() }}.png"/>
+    </a>
 {% endfor %}
 </section><!-- /#content -->
 {% endblock content %}
