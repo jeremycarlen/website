@@ -34,12 +34,12 @@
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <a href="{{ SITEURL }}/"><img id="jc-button" src="theme/buttons/jc_up.png"/></a>
+                <a href="{{ SITEURL }}/"><img id="jc-button" src="{{ SITEURL }}/theme/buttons/jc_up.png"/></a>
         </header><!-- /#banner -->
         <div id="wrapper">
             <nav id="menu">
-            <a href="about.html"><img id="about-button" src="theme/buttons/about_up.png"/></a>
-            <a href="work.html"><img id="work-button" src="theme/buttons/work_up.png"/></a>
+            <a href="about.html"><img id="about-button" src="{{ SITEURL }}/theme/buttons/about_up.png"/></a>
+            <a href="work.html"><img id="work-button" src="{{ SITEURL }}/theme/buttons/work_up.png"/></a>
             </nav><!-- /#menu -->
             {% block content %}
             {% endblock %}
