@@ -2,9 +2,9 @@
 {% block content %}
 <section id="content" class="thumbnail-boxes">
 {% for article in articles_page.object_list %}
-    <a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.description }}">
-        <img class="project-thumbnail" src="{{ SITEURL }}/theme/thumbnails/{{ article.title.lower() }}.png"/>
-    </a>
+    {% if article.metadata.get("ispage") == None %}
+    <a href="{{ SITEURL }}/{{ article.url }}" title="{{ article.description }}"><img class="project-thumbnail" src="{{ SITEURL }}/theme/thumbnails/{{ article.slug }}.png"/></a>
+    {% endif %}
 {% endfor %}
 </section><!-- /#content -->
 {% endblock content %}

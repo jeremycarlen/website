@@ -38,8 +38,12 @@
         </header><!-- /#banner -->
         <div id="wrapper">
             <nav id="menu">
-            <a href="about.html"><img id="about-button" src="{{ SITEURL }}/theme/buttons/about_up.png"/></a>
-            <a href="work.html"><img id="work-button" src="{{ SITEURL }}/theme/buttons/work_up.png"/></a>
+            <!-- Generate about/work page links. -->
+            {% for article in articles %}
+                {% if article.metadata.get("ispage") == "True" %}
+                <a href="{{ SITEURL }}/{{ article.url }}"><img id="{{ article.slug }}-button" src="{{ SITEURL }}/theme/buttons/{{ article.slug }}_up.png"/></a>
+                {% endif %}
+            {% endfor %}
             </nav><!-- /#menu -->
             {% block content %}
             {% endblock %}
