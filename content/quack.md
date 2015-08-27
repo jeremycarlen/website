@@ -1,8 +1,9 @@
 Title: Quack
-Date: 2015
-Description: Hello world.
+Date: 01-01-2015
+Description: Quack - a short experimental animation.
 
-This is a list
+<iframe src="https://player.vimeo.com/video/133006081" width="700px" height="393px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-* 1
-* 2
+# Quack
+
+A short little experimental animation I made, using a combination of hand drawn animation and After Effects.
