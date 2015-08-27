@@ -2,9 +2,9 @@ Title: Showreel
 Date: 31-12-2014
 Description: My animation showreel for the end of 2014.
 
-# Animation Showreel (2014)
+<iframe src="https://player.vimeo.com/video/128218045" width="700px" height="393px" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-INSERT VIDEO LINK HERE LOL
+# Animation Showreel (2014)
 
 I am an animator and designer in Sydney, Australia. This is my animation showreel for the end of 2014, after having finished my third year of studying animation at UTS.
 
