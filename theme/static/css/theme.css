@@ -40,6 +40,10 @@ body {
     margin-bottom: 30px;
 }
 
+.entry-content {
+    max-width: 700px;
+}
+
 #project-thumbnail {
     width: 300px;
 }

@@ -39,11 +39,15 @@
         <div id="wrapper">
             <nav id="menu">
             <!-- Generate about/work page links. -->
+            <!-- TODO: Add work page and uncomment this.
             {% for article in articles %}
                 {% if article.metadata.get("ispage") == "True" %}
                 <a href="{{ SITEURL }}/{{ article.url }}"><img id="{{ article.slug }}-button" src="{{ SITEURL }}/theme/buttons/{{ article.slug }}_up.png"/></a>
                 {% endif %}
             {% endfor %}
+            -->
+            <a href="{{ SITEURL }}/about.html"><img id="about-button" src="{{ SITEURL }}/theme/buttons/about_up.png"/></a>
+            <a href="{{ SITEURL }}/index.html"><img id="work-button" src="{{ SITEURL }}/theme/buttons/work_up.png"/></a>
             </nav><!-- /#menu -->
             {% block content %}
             {% endblock %}
